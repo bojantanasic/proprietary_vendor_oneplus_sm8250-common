@@ -239,6 +239,9 @@
         "resolutionFilterForNotAddSizeAPI1":[
             "2080x960",
             "1872x864"
+        ],
+        "app_disable_omoji_activity":[
+            "com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI"
         ]
     },
     "com.whatsapp": {
