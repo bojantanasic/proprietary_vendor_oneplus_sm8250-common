@@ -1487,6 +1487,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/kona_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_sx932x_0.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lps22hh_0.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/mmc5603nj.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/mmc5603nj.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/pah_813x_0_reg.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/pah_813x_0_reg.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
@@ -1501,6 +1502,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dae.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_diag_filter.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_direct_channel.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_direct_channel.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_distance_bound.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dpc.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_facing.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_facing.json \
@@ -1523,6 +1525,27 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/stk3x5x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3x5x_0.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sx932x_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_bma4_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_bma4_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_bmg160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_bmg160_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_llcm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_llcm.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_morpheus_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_morpheus_icm4x6xx_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_morpheus_ndi_atraxa_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_morpheus_ndi_atraxa_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_morpheus_rpr0521rs_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_morpheus_rpr0521rs_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_morpheus_sku3_ak994x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_morpheus_sku3_ak994x_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_morpheus_sku3_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_morpheus_sku3_icm4x6xx_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_morpheus_sku3_icm4x6xx_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_morpheus_sku3_icm4x6xx_1.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_oracle_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_oracle_ak991x_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_oracle_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_oracle_icm4x6xx_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_oracle_icm4x6xx_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_oracle_icm4x6xx_1.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_oracle_pah_813x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_oracle_pah_813x_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_oracle_rpr0521rs_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_oracle_rpr0521rs_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_oracle_tsl2540.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_oracle_tsl2540.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_sns_amd_sw_enabled.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_sns_dae.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_sns_tilt_sw_enabled.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_trinity_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_trinity_icm4x6xx_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_trinity_ndi_atraxa_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_trinity_ndi_atraxa_0.json \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/sxr2130_trinity_rpr0521rs_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sxr2130_trinity_rpr0521rs_0.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/tcs3408.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3408.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/sensors/config/wigig_sensing_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/wigig_sensing_0.json \
