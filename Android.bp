@@ -11618,8 +11618,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libhistogram_vendor",
-    stem: "libhistogram",
+    name: "libhistogram",
     owner: "oneplus",
     strip: {
         none: true,
@@ -12850,7 +12849,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "android.hardware.graphics.common@1.2",
                 "libhardware",
-                "libsdmcore_vendor",
+                "libsdmcore",
                 "libqdMetaData",
                 "libpwirisfeature",
                 "libhidlbase",
@@ -13447,8 +13446,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdedrm_vendor",
-    stem: "libsdedrm",
+    name: "libsdedrm",
     owner: "oneplus",
     strip: {
         none: true,
@@ -13592,8 +13590,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdmcore_vendor",
-    stem: "libsdmcore",
+    name: "libsdmcore",
     owner: "oneplus",
     strip: {
         none: true,
@@ -13609,7 +13606,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libdrm",
                 "libdrmutils",
-                "libsdedrm_vendor",
+                "libsdedrm",
                 "libpwirisfeature",
                 "libutils",
                 "libc++",
@@ -20562,7 +20559,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "android.hardware.graphics.common@1.2",
                 "libhardware",
-                "libsdmcore_vendor",
+                "libsdmcore",
                 "libqdMetaData",
                 "libpwirisfeature",
                 "libhidlbase",
@@ -20629,7 +20626,7 @@ cc_prebuilt_library_shared {
                 "libpwirisPCS",
                 "libhardware",
                 "libbinder",
-                "libsdmcore_vendor",
+                "libsdmcore",
                 "libqservice",
                 "libpwirissoft",
                 "libpwiriscalibrate",
@@ -22194,8 +22191,7 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "vendor.qti.hardware.display.composer-service_vendor",
-    stem: "vendor.qti.hardware.display.composer-service",
+    name: "vendor.qti.hardware.display.composer-service",
     owner: "oneplus",
     target: {
         android_arm64: {
@@ -22203,7 +22199,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service",
             ],
             shared_libs: [
-                "libhistogram_vendor",
+                "libhistogram",
                 "libbinder",
                 "libhardware",
                 "libutils",
@@ -22214,7 +22210,7 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "libfmq",
                 "libhardware_legacy",
-                "libsdmcore_vendor",
+                "libsdmcore",
                 "libqservice",
                 "libqdutils",
                 "libqdMetaData",
