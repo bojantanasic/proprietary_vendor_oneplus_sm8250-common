@@ -903,10 +903,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libgsl",
                 "libutils",
-<<<<<<< HEAD
-=======
                 "libadreno_utils",
->>>>>>> 55186b7 (sm8150-common: Add 786 Adreno driver from @Lynchp1n)
                 "libnativewindow",
                 "libvndksupport",
                 "libgralloc.qti",
@@ -933,10 +930,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libgsl",
                 "libutils",
-<<<<<<< HEAD
-=======
                 "libadreno_utils",
->>>>>>> 55186b7 (sm8150-common: Add 786 Adreno driver from @Lynchp1n)
                 "libnativewindow",
                 "libvndksupport",
                 "libgralloc.qti",
