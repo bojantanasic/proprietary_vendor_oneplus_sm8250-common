@@ -970,6 +970,8 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "libcutils",
+                "libvndksupport"
             ],
         },
         android_arm64: {
@@ -981,6 +983,8 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+                "libcutils",
+                "libvndksupport"
             ],
         },
     },
@@ -1750,6 +1754,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcutils",
+                "libion",
                 "liblog",
                 "libz",
                 "libsync",
@@ -1766,6 +1771,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libcutils",
+                "libion",
                 "liblog",
                 "libz",
                 "libsync",
